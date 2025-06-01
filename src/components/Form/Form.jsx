@@ -16,6 +16,7 @@ const Form = () => {
       id: nanoid(),
     };
     dispatch(addTodo(todo));
+    event.target.reset()
   };
 
   return (
